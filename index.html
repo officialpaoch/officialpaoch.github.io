@@ -3,122 +3,181 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paoch | Beauty Product Tracker & Expiration Reminder</title>
-  <meta name="description" content="Track your cosmetics, skincare, and beauty products. Get expiration reminders, build routines, scan barcodes, and organize your collection, all stored privately on your device.">
+  <meta name="theme-color" content="#fff8f7">
+  <title>Paoch | Your beauty collection, beautifully organized</title>
+  <meta name="description" content="Track beauty products, opening dates, routines, reminders, and repurchase insights with Paoch.">
+  <meta property="og:title" content="Paoch | Your beauty collection, beautifully organized">
+  <meta property="og:description" content="A thoughtful home for every product in your beauty routine.">
+  <meta property="og:image" content="assets/app-icon.png">
+  <link rel="icon" href="assets/app-icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
-    <h1><a href="index.html">Paoch</a></h1>
-    <nav>
-      <a href="privacy-policy.html">Privacy Policy</a>
-      <a href="terms-of-service.html">Terms of Service</a>
-    </nav>
+<body class="home">
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="index.html" aria-label="Paoch home">
+        <img src="assets/app-icon.png" alt="" width="42" height="42">
+        <span>Paoch</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#features">Features</a>
+        <a href="#showcase">See the app</a>
+        <a href="privacy-policy.html">Privacy</a>
+        <a class="nav-cta" href="mailto:officialpaoch@gmail.com">Get in touch</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <!-- Hero -->
-    <section class="hero">
-      <h1 class="hero-title">Your beauty collection,<br>organized and on track.</h1>
-      <p class="hero-subtitle">Paoch helps you track expiration dates, build skincare routines, and manage your cosmetic collection. Everything stays private, on your device.</p>
-      <div class="hero-badges">
-        <a href="#" class="badge" aria-label="Download on the App Store">
-          <svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="120" height="40" rx="6" fill="#1A1A1A"/>
-            <text x="60" y="16" text-anchor="middle" fill="#fff" font-size="8" font-family="system-ui">Download on the</text>
-            <text x="60" y="28" text-anchor="middle" fill="#fff" font-size="12" font-weight="600" font-family="system-ui">App Store</text>
-          </svg>
-        </a>
-        <a href="#" class="badge" aria-label="Get it on Google Play">
-          <svg width="135" height="40" viewBox="0 0 135 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="135" height="40" rx="6" fill="#1A1A1A"/>
-            <text x="67" y="16" text-anchor="middle" fill="#fff" font-size="8" font-family="system-ui">GET IT ON</text>
-            <text x="67" y="28" text-anchor="middle" fill="#fff" font-size="12" font-weight="600" font-family="system-ui">Google Play</text>
-          </svg>
-        </a>
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span>Your beauty shelf, in your pocket</p>
+        <h1>Love what you own.<br><em>Use every last drop.</em></h1>
+        <p class="hero-lede">Paoch gives your skincare, makeup, and beauty products one calm, organized home. Know what you have, what to use next, and what you would buy again.</p>
+        <div class="store-buttons" aria-label="Paoch availability">
+          <button class="store-badge" type="button" disabled>
+            <svg class="store-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.7 2.2c.1 1.2-.4 2.3-1.1 3.1-.8.9-2 1.5-3.1 1.4-.1-1.1.4-2.3 1.1-3.1.8-.8 2-1.4 3.1-1.4ZM19.8 17.1c-.5 1.2-1.1 2.4-2 3.6-.8 1.1-1.7 2.3-3 2.3-1.1 0-1.5-.7-3-.7s-2 .7-3.1.7c-1.3 0-2.2-1.2-3-2.3C3.3 17.3 2 12.2 4.1 8.6A4.7 4.7 0 0 1 8 6.2c1.2 0 2.4.8 3.1.8.7 0 2.2-1 3.6-.9.6 0 2.6.2 3.9 2.1-3.4 2-2.9 6.8 1.2 8.9Z"/></svg>
+            <span><small>Coming soon on the</small><strong>App Store</strong></span>
+          </button>
+          <button class="store-badge" type="button" disabled>
+            <svg class="store-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3.2v17.6L15.4 12 4 3.2Z"/><path d="m15.4 12 3.5-2.7c.7-.5 1.5.5.8 1L17.5 12l2.2 1.7c.7.5-.1 1.5-.8 1L15.4 12Z" opacity=".72"/></svg>
+            <span><small>Coming soon on</small><strong>Google Play</strong></span>
+          </button>
+        </div>
+        <div class="hero-actions">
+          <a class="text-link" href="#showcase">Preview the app <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="mailto:officialpaoch@gmail.com">Contact us <span aria-hidden="true">↗</span></a>
+        </div>
+        <ul class="trust-list" aria-label="Paoch highlights">
+          <li><span aria-hidden="true">✓</span>Fast product tracking</li>
+          <li><span aria-hidden="true">✓</span>Thoughtful reminders</li>
+          <li><span aria-hidden="true">✓</span>Personalized insights</li>
+        </ul>
+      </div>
+
+      <div class="hero-art" aria-label="Paoch app preview">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="icon-card">
+          <img src="assets/app-icon.png" alt="Paoch app icon" width="300" height="300">
+          <div class="icon-caption">
+            <span class="caption-label">Meet</span>
+            <strong>Paoch</strong>
+            <span>Beauty, kept beautifully.</span>
+          </div>
+        </div>
+        <div class="floating-note note-top"><span>12</span> products fresh</div>
+        <div class="floating-note note-bottom"><span>3/4</span> routine complete</div>
       </div>
     </section>
 
-    <!-- Features -->
-    <section class="features">
-      <h2>Features</h2>
+    <section class="marquee" aria-label="Paoch features">
+      <div>Track expiry <span>✦</span> Build routines <span>✦</span> Scan products <span>✦</span> Remember favorites <span>✦</span> Understand your collection</div>
+    </section>
 
+    <section class="showcase section-shell" id="showcase">
+      <div class="section-heading">
+        <p class="eyebrow"><span></span>Designed around real routines</p>
+        <h2>A little more clarity<br>every time you open it.</h2>
+        <p>From the first scan to the last pump, Paoch keeps the useful details close and the experience delightfully simple.</p>
+      </div>
+
+      <div class="phone-gallery">
+        <figure class="phone-card phone-left">
+          <div class="phone-frame">
+            <div class="phone-speaker"></div>
+            <img src="assets/collection.png" alt="Paoch Collection screen showing a pouch score, product filters, and tracked beauty products" loading="lazy">
+          </div>
+          <figcaption><span>01</span><strong>See what you own</strong>Search, sort, and check freshness.</figcaption>
+        </figure>
+        <figure class="phone-card phone-center">
+          <div class="phone-frame">
+            <div class="phone-speaker"></div>
+            <img src="assets/routines.png" alt="Paoch Routines screen showing imported morning, device, and makeup routines" loading="lazy">
+          </div>
+          <figcaption><span>02</span><strong>Keep a rhythm</strong>Build routines and get nudged.</figcaption>
+        </figure>
+        <figure class="phone-card phone-right">
+          <div class="phone-frame">
+            <div class="phone-speaker"></div>
+            <img src="assets/insights.png" alt="Paoch Insights screen showing the collection health score and products to use first" loading="lazy">
+          </div>
+          <figcaption><span>03</span><strong>Know what needs attention</strong>Turn your collection into useful guidance.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="feature-section section-shell" id="features">
+      <div class="feature-intro">
+        <p class="eyebrow"><span></span>Everything has its place</p>
+        <h2>More than a list.<br>A better way to use what you own.</h2>
+      </div>
       <div class="feature-grid">
-        <div class="feature-card">
-          <div class="feature-icon">&#128197;</div>
-          <h3>Expiration Tracking</h3>
-          <p>Never wonder if a product is still good. Track opening dates and get notified before items expire based on their PAO (period after opening).</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-icon">&#128247;</div>
-          <h3>Barcode Scanner</h3>
-          <p>Scan a product barcode to instantly look up its name, brand, and category. Adding products takes seconds, not minutes.</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-icon">&#128218;</div>
-          <h3>Product Collection</h3>
-          <p>Organize your entire beauty collection in one place: skincare, makeup, hair, fragrance, and more. Filter by category, status, or brand.</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-icon">&#9968;</div>
-          <h3>Routines</h3>
-          <p>Build morning and evening skincare routines. Assign products to each step and follow your routine day by day.</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-icon">&#128200;</div>
-          <h3>Insights</h3>
-          <p>See trends across your collection, like top categories, products nearing expiration, and repurchase history.</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-icon">&#128274;</div>
-          <h3>Private by Design</h3>
-          <p>All your data stays on your device. No account required, no cloud sync, no analytics. Export a backup anytime you want.</p>
-        </div>
+        <article class="feature-card feature-wide">
+          <div class="feature-number">01</div>
+          <div class="feature-icon" aria-hidden="true">◌</div>
+          <h3>Freshness at a glance</h3>
+          <p>Track opening dates and period-after-opening windows, then see what is fresh, expiring soon, or ready to retire.</p>
+          <div class="status-demo" aria-hidden="true">
+            <span class="fresh">Fresh</span><span class="soon">Soon</span><span class="past">Past</span>
+          </div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-number">02</div>
+          <div class="feature-icon" aria-hidden="true">⌁</div>
+          <h3>Your collection, sorted</h3>
+          <p>Browse by category, brand, status, or favorites without digging through drawers.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-number">03</div>
+          <div class="feature-icon" aria-hidden="true">↻</div>
+          <h3>Routines that stick</h3>
+          <p>Arrange morning and evening steps, assign products, and keep your ritual moving.</p>
+        </article>
+        <article class="feature-card feature-wide memory-card">
+          <div class="feature-number">04</div>
+          <div class="memory-mark" aria-hidden="true">♡</div>
+          <div>
+            <h3>A collection that remembers with you.</h3>
+            <p>Finish a product, rate the experience, and keep a useful memory of what earned another spot in your pouch.</p>
+            <a href="#showcase">See Paoch in action <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
       </div>
     </section>
 
-    <!-- Who is it for -->
-    <section class="audience">
-      <h2>Who Is Paoch For?</h2>
-      <p>Anyone who owns more beauty products than they can keep track of. Whether you're managing a skincare routine, trying to use products before they expire, or simply want to know what you own, Paoch keeps it all organized without the spreadsheet hassle.</p>
-    </section>
-
-    <!-- Download -->
-    <section class="download">
-      <h2>Available On</h2>
-      <div class="download-links">
-        <div class="download-item">
-          <strong>iOS</strong>
-          <p>iPhone and iPad. Requires iOS 16 or later.</p>
-          <a href="#" class="btn">App Store</a>
-        </div>
-        <div class="download-item">
-          <strong>Android</strong>
-          <p>Phones and tablets. Requires Android 8.0 or later.</p>
-          <a href="#" class="btn">Google Play</a>
-        </div>
+    <section class="how-it-works section-shell">
+      <div class="section-heading compact">
+        <p class="eyebrow"><span></span>Simple from day one</p>
+        <h2>Three steps to a calmer collection.</h2>
       </div>
+      <ol class="steps">
+        <li><span>1</span><div><strong>Add what you own</strong><p>Scan a barcode, take a photo, or enter the details yourself.</p></div></li>
+        <li><span>2</span><div><strong>Make it yours</strong><p>Group products, build routines, and choose the reminders that help.</p></div></li>
+        <li><span>3</span><div><strong>Use with confidence</strong><p>See what needs attention and remember the products that earned another spot.</p></div></li>
+      </ol>
     </section>
 
-    <!-- Contact -->
-    <section class="contact">
-      <h2>Contact</h2>
-      <p>Questions, feedback, or feature requests? Reach us at <a href="mailto:officialpaoch@gmail.com">officialpaoch@gmail.com</a>.</p>
+    <section class="closing section-shell">
+      <img src="assets/logo-mark.png" alt="" width="170" height="170">
+      <p class="eyebrow centered"><span></span>Made for thoughtful beauty lovers<span></span></p>
+      <h2>Your collection already has a story.<br><em>Paoch helps you see it.</em></h2>
+      <p>Questions, feedback, or interested in trying Paoch?</p>
+      <a class="button button-primary" href="mailto:officialpaoch@gmail.com">Say hello <span aria-hidden="true">↗</span></a>
     </section>
   </main>
 
   <footer>
-    <div class="footer-links">
-      <a href="privacy-policy.html">Privacy Policy</a>
-      <a href="terms-of-service.html">Terms of Service</a>
-      <a href="mailto:officialpaoch@gmail.com">Contact</a>
+    <div class="footer-shell">
+      <a class="brand footer-brand" href="index.html"><img src="assets/app-icon.png" alt="" width="38" height="38"><span>Paoch</span></a>
+      <p>A thoughtful home for your beauty collection.</p>
+      <div class="footer-links">
+        <a href="privacy-policy.html">Privacy</a>
+        <a href="terms-of-service.html">Terms</a>
+        <a href="mailto:officialpaoch@gmail.com">Contact</a>
+      </div>
+      <p class="copyright">© 2026 Paoch. All rights reserved.</p>
     </div>
-    <p>&copy; 2026 Paoch. All rights reserved.</p>
   </footer>
 </body>
 </html>
