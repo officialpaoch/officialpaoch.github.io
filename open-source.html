@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff8f7">
+  <title>Open Source | Paoch</title>
+  <meta name="description" content="Open-source acknowledgements, licenses, and third-party notices for the software and data that help power Paoch.">
+  <link rel="icon" href="assets/app-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="open-source">
+  <header>
+    <h1><a class="brand" href="index.html"><img src="assets/app-icon.png" alt="" width="38" height="38"><span>Paoch</span></a></h1>
+    <nav aria-label="Legal and acknowledgements">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="open-source.html" class="active" aria-current="page">Open Source</a>
+      <a href="terms-of-service.html">Terms of Service</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="oss-hero">
+      <p class="eyebrow"><span></span>Built with care and community</p>
+      <h1>Open Source</h1>
+      <p class="effective-date">Third-party acknowledgements</p>
+      <p class="oss-lede">PAOCH is made possible by open-source software, open standards, and people who share their work with the world. This page recognizes the projects that help us keep the app thoughtful, reliable, and useful.</p>
+      <p class="oss-scope">PAOCH’s own application code and branding are not released under the licenses below. These notices apply to the third-party components and resources identified on this page.</p>
+    </section>
+
+    <section class="oss-summary-grid" aria-label="How open source supports PAOCH">
+      <article class="oss-summary-card">
+        <span aria-hidden="true">01</span>
+        <h2>Built with Flutter</h2>
+        <p>Flutter and Dart provide the cross-platform foundation behind PAOCH’s interface and app experience.</p>
+      </article>
+      <article class="oss-summary-card">
+        <span aria-hidden="true">02</span>
+        <h2>Local-first by design</h2>
+        <p>Open packages support on-device storage, preferences, notifications, camera access, and file handling.</p>
+      </article>
+      <article class="oss-summary-card">
+        <span aria-hidden="true">03</span>
+        <h2>Connected thoughtfully</h2>
+        <p>Community libraries help with product lookup, sharing, subscriptions, ads, and other optional services.</p>
+      </article>
+    </section>
+
+    <section class="oss-packages" aria-labelledby="packages-heading">
+      <h2 id="packages-heading">What helps power PAOCH</h2>
+      <p>The list below covers the app’s direct runtime dependencies. Package names link to their public project pages, where source code and package-specific license notices are available.</p>
+
+      <div class="oss-group-grid">
+        <article class="oss-group">
+          <p class="oss-group-label">Foundation &amp; local data</p>
+          <ul class="oss-package-list">
+            <li><a href="https://flutter.dev" target="_blank" rel="noopener"><strong>Flutter</strong><span class="oss-license">BSD 3-Clause</span></a><p>Cross-platform application framework.</p></li>
+            <li><a href="https://dart.dev" target="_blank" rel="noopener"><strong>Dart</strong><span class="oss-license">BSD 3-Clause</span></a><p>Programming language and runtime.</p></li>
+            <li><a href="https://pub.dev/packages/flutter_riverpod" target="_blank" rel="noopener"><strong>flutter_riverpod</strong><span class="oss-license">MIT</span></a><p>Reactive state management.</p></li>
+            <li><a href="https://pub.dev/packages/riverpod_annotation" target="_blank" rel="noopener"><strong>riverpod_annotation</strong><span class="oss-license">MIT</span></a><p>Riverpod annotations and generated providers.</p></li>
+            <li><a href="https://pub.dev/packages/isar" target="_blank" rel="noopener"><strong>isar</strong><span class="oss-license">Apache 2.0</span></a><p>On-device product and routine database.</p></li>
+            <li><a href="https://pub.dev/packages/isar_flutter_libs" target="_blank" rel="noopener"><strong>isar_flutter_libs</strong><span class="oss-license">Apache 2.0</span></a><p>Native Isar database runtime.</p></li>
+            <li><a href="https://pub.dev/packages/shared_preferences" target="_blank" rel="noopener"><strong>shared_preferences</strong><span class="oss-license">BSD 3-Clause</span></a><p>Small on-device settings and preferences.</p></li>
+            <li><a href="https://pub.dev/packages/path" target="_blank" rel="noopener"><strong>path</strong><span class="oss-license">BSD 3-Clause</span></a><p>Portable file-path handling.</p></li>
+            <li><a href="https://pub.dev/packages/path_provider" target="_blank" rel="noopener"><strong>path_provider</strong><span class="oss-license">BSD 3-Clause</span></a><p>Access to app storage locations.</p></li>
+            <li><a href="https://pub.dev/packages/uuid" target="_blank" rel="noopener"><strong>uuid</strong><span class="oss-license">MIT</span></a><p>Unique local identifiers.</p></li>
+          </ul>
+        </article>
+
+        <article class="oss-group">
+          <p class="oss-group-label">Capture &amp; device features</p>
+          <ul class="oss-package-list">
+            <li><a href="https://pub.dev/packages/camera" target="_blank" rel="noopener"><strong>camera</strong><span class="oss-license">BSD 3-Clause</span></a><p>Camera previews and product photos.</p></li>
+            <li><a href="https://pub.dev/packages/mobile_scanner" target="_blank" rel="noopener"><strong>mobile_scanner</strong><span class="oss-license">BSD 3-Clause</span></a><p>Barcode and QR code scanning.</p></li>
+            <li><a href="https://pub.dev/packages/image_picker" target="_blank" rel="noopener"><strong>image_picker</strong><span class="oss-license">BSD 3-Clause</span></a><p>Photo-library image selection.</p></li>
+            <li><a href="https://pub.dev/packages/flutter_local_notifications" target="_blank" rel="noopener"><strong>flutter_local_notifications</strong><span class="oss-license">BSD 3-Clause</span></a><p>On-device reminders and schedules.</p></li>
+            <li><a href="https://pub.dev/packages/timezone" target="_blank" rel="noopener"><strong>timezone</strong><span class="oss-license">BSD 3-Clause</span></a><p>Time-zone-aware reminder calculations.</p></li>
+            <li><a href="https://pub.dev/packages/flutter_timezone" target="_blank" rel="noopener"><strong>flutter_timezone</strong><span class="oss-license">Apache 2.0</span></a><p>Device time-zone detection.</p></li>
+            <li><a href="https://pub.dev/packages/sensors_plus" target="_blank" rel="noopener"><strong>sensors_plus</strong><span class="oss-license">BSD 3-Clause</span></a><p>Access to supported device motion sensors.</p></li>
+            <li><a href="https://pub.dev/packages/file_picker" target="_blank" rel="noopener"><strong>file_picker</strong><span class="oss-license">MIT</span></a><p>Backup-file selection and restore flows.</p></li>
+          </ul>
+        </article>
+
+        <article class="oss-group">
+          <p class="oss-group-label">Interface &amp; presentation</p>
+          <ul class="oss-package-list">
+            <li><a href="https://pub.dev/packages/intl" target="_blank" rel="noopener"><strong>intl</strong><span class="oss-license">BSD 3-Clause</span></a><p>Localized dates, numbers, and text formatting.</p></li>
+            <li><a href="https://pub.dev/packages/google_fonts" target="_blank" rel="noopener"><strong>google_fonts</strong><span class="oss-license">BSD 3-Clause</span></a><p>Bundled font integration.</p></li>
+            <li><a href="https://pub.dev/packages/material_symbols_icons" target="_blank" rel="noopener"><strong>material_symbols_icons</strong><span class="oss-license">Apache 2.0</span></a><p>Material Symbols icon set.</p></li>
+            <li><a href="https://pub.dev/packages/flutter_slidable" target="_blank" rel="noopener"><strong>flutter_slidable</strong><span class="oss-license">MIT</span></a><p>Swipe actions for list items.</p></li>
+            <li><a href="https://pub.dev/packages/flutter_floating_bottom_bar" target="_blank" rel="noopener"><strong>flutter_floating_bottom_bar</strong><span class="oss-license">MIT</span></a><p>Floating app navigation.</p></li>
+            <li><a href="https://pub.dev/packages/fl_chart" target="_blank" rel="noopener"><strong>fl_chart</strong><span class="oss-license">MIT</span></a><p>Collection and spending charts.</p></li>
+          </ul>
+        </article>
+
+        <article class="oss-group">
+          <p class="oss-group-label">Sharing &amp; connected services</p>
+          <ul class="oss-package-list">
+            <li><a href="https://pub.dev/packages/http" target="_blank" rel="noopener"><strong>http</strong><span class="oss-license">BSD 3-Clause</span></a><p>Standards-based network requests.</p></li>
+            <li><a href="https://pub.dev/packages/url_launcher" target="_blank" rel="noopener"><strong>url_launcher</strong><span class="oss-license">BSD 3-Clause</span></a><p>Opening websites, policies, and email links.</p></li>
+            <li><a href="https://pub.dev/packages/share_plus" target="_blank" rel="noopener"><strong>share_plus</strong><span class="oss-license">BSD 3-Clause</span></a><p>System share-sheet integration.</p></li>
+            <li><a href="https://pub.dev/packages/purchases_flutter" target="_blank" rel="noopener"><strong>purchases_flutter</strong><span class="oss-license">MIT</span></a><p>RevenueCat subscription integration.</p></li>
+            <li><a href="https://pub.dev/packages/purchases_ui_flutter" target="_blank" rel="noopener"><strong>purchases_ui_flutter</strong><span class="oss-license">MIT</span></a><p>RevenueCat paywall presentation.</p></li>
+            <li><a href="https://pub.dev/packages/google_mobile_ads" target="_blank" rel="noopener"><strong>google_mobile_ads</strong><span class="oss-license">Apache 2.0</span></a><p>Google Mobile Ads Flutter integration.</p></li>
+          </ul>
+        </article>
+      </div>
+
+      <p class="oss-note">Some packages connect PAOCH to separately operated third-party services. The open-source license shown here applies to the client library, while use of the connected service remains subject to that provider’s own terms.</p>
+    </section>
+
+    <section class="oss-open-data" aria-labelledby="open-data-heading">
+      <div>
+        <p class="oss-group-label">Open product data</p>
+        <h2 id="open-data-heading">Open Beauty Facts</h2>
+      </div>
+      <div>
+        <p>When you scan a barcode, PAOCH may query the community-powered Open Beauty Facts database for product details. The service is powered by the open-source Product Opener project.</p>
+        <p>Its database is available under the Open Database License, individual database contents under the Database Contents License, and product images under Creative Commons Attribution-ShareAlike. Learn more in the <a href="https://openfoodfacts.github.io/documentation/docs/Product-Opener/api/tutorials/license-be-on-the-legal-side/" target="_blank" rel="noopener">official reuse and licensing guide</a>.</p>
+      </div>
+    </section>
+
+    <section class="oss-fonts" aria-labelledby="fonts-heading">
+      <h2 id="fonts-heading">Bundled typefaces</h2>
+      <p>PAOCH includes these font families locally so its core interface does not depend on a font download at runtime.</p>
+      <div class="oss-font-grid">
+        <article class="oss-font-card">
+          <p class="oss-group-label">App interface</p>
+          <h3>Albert Sans</h3>
+          <p>Copyright 2021 The Albert Sans Project Authors.</p>
+          <a href="https://github.com/usted/Albert-Sans" target="_blank" rel="noopener">Source project <span aria-hidden="true">↗</span></a>
+          <span class="oss-license">SIL OFL 1.1</span>
+        </article>
+        <article class="oss-font-card">
+          <p class="oss-group-label">Bundled font assets</p>
+          <h3>Inter</h3>
+          <p>Designed by Rasmus Andersson and the Inter project contributors.</p>
+          <a href="https://github.com/rsms/inter" target="_blank" rel="noopener">Source project <span aria-hidden="true">↗</span></a>
+          <span class="oss-license">SIL OFL 1.1</span>
+        </article>
+      </div>
+
+      <details class="oss-license-disclosure">
+        <summary>Read the SIL Open Font License 1.1</summary>
+        <pre class="oss-license-text">SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the Font Software.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION &amp; CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created using
+the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.</pre>
+      </details>
+    </section>
+
+    <section class="oss-contact">
+      <h2>Questions or corrections?</h2>
+      <p>If you maintain one of these projects or notice an attribution that needs updating, please contact us at <a href="mailto:officialpaoch@gmail.com">officialpaoch@gmail.com</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Paoch. All rights reserved.
+  </footer>
+</body>
+</html>
