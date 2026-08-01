@@ -18,7 +18,17 @@
     </nav>
   </header>
 
-  <main>
+  <main class="policy-page">
+    <aside class="policy-language" aria-label="Policy language">
+      <span>Language</span>
+      <label class="language-picker">
+        <span class="sr-only">Privacy policy language</span>
+        <select aria-label="Privacy policy language" onchange="window.location.href=this.value">
+          <option value="privacy-policy.html" selected>English</option>
+          <option value="privacy-policy-ko.html" lang="ko">한국어</option>
+        </select>
+      </label>
+    </aside>
     <h1>Privacy Policy</h1>
     <p class="effective-date">Effective Date: July 31, 2026</p>
 
@@ -31,7 +41,7 @@
     <h2>Information Processed Automatically</h2>
     <p>Paoch does not operate its own analytics, telemetry, or crash-reporting service. The App does, however, include the following third-party SDKs:</p>
     <ul>
-      <li><strong>Google Mobile Ads and User Messaging Platform (AdMob/UMP):</strong> The App initializes Google's advertising and consent SDKs on iOS and may show banner ads to free users. Depending on your consent choices, device settings, region, and Google's ad-serving mode, Google may process an IP address (which can indicate general location), device or app identifiers, advertising data, interactions with the App and ads, diagnostic information, and performance information. Google may use this information for advertising, analytics, fraud prevention, and service operation. UMP presents privacy choices where required, and Paoch requests ads only when the SDK reports that ads may be requested. Paoch does not currently request access to Apple's advertising identifier through the App Tracking Transparency prompt.</li>
+      <li><strong>Google Mobile Ads and User Messaging Platform (AdMob/UMP):</strong> The App initializes Google's advertising and consent SDKs on iOS and may show banner ads to free users. Paoch requests non-personalized ads and does not request access to Apple's advertising identifier through the App Tracking Transparency prompt. Google may still process an IP address (which can indicate general location), device or app identifiers, advertising data, interactions with the App and ads, diagnostic information, and performance information for contextual advertising, analytics, fraud prevention, and service operation. UMP presents privacy choices where required, Paoch requests ads only when the SDK reports that ads may be requested, and an in-App privacy-options entry point appears when UMP requires one.</li>
       <li><strong>RevenueCat:</strong> The App uses RevenueCat to offer and manage Paoch Pro purchases. RevenueCat processes an SDK-generated anonymous App User ID, purchase history, Apple receipt and transaction information, product and entitlement status, and technical information such as device type, operating system, locale, currency, and IP address. Paoch does not send RevenueCat your name or email address because the App has no account system. Apple processes your payment method; Paoch and RevenueCat do not receive your full payment card details.</li>
     </ul>
 
@@ -42,6 +52,16 @@
       <li><strong>Amazon links:</strong> When you choose to open an Amazon product-search link, the App passes the product name and brand as search terms to your external browser. Amazon and your browser process that request under their own policies. The link may contain an affiliate tag, and Paoch may earn a commission from a resulting purchase.</li>
     </ul>
     <p>The relevant third-party policies are available from <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a>, <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">RevenueCat</a>, <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a>, <a href="https://world.openbeautyfacts.org/privacy" target="_blank" rel="noopener">Open Beauty Facts</a>, and <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ" target="_blank" rel="noopener">Amazon</a>.</p>
+
+    <h2>International Processing</h2>
+    <p>Paoch is currently offered in the United States and South Korea. The third-party providers listed above may process information outside the country where you use the App:</p>
+    <ul>
+      <li>Google and RevenueCat process information in the United States and may use infrastructure or subprocessors in other countries.</li>
+      <li>RevenueCat uses United States-based cloud infrastructure to maintain purchase and entitlement records.</li>
+      <li>Open Beauty Facts is operated from France.</li>
+      <li>Apple and Amazon process information in the countries described in their respective policies.</li>
+    </ul>
+    <p>For South Korean users, these overseas providers receive only the information described in this Policy for advertising and consent management, purchase and entitlement management, barcode lookup, or a link you chose to open. By using a feature that requires one of these providers, you request the associated processing. Where applicable law requires a separate choice, the App or the provider will present one before the processing occurs.</p>
 
     <h2>Device Permissions</h2>
     <p>Paoch may request:</p>
@@ -58,8 +78,12 @@
     <p>Google, RevenueCat, Apple, Open Beauty Facts, Amazon, and any destination you choose through the share interface retain information according to their own policies and legal obligations. Purchase records may need to be retained to validate entitlements, process refunds, prevent fraud, and meet financial or legal requirements.</p>
     <p>To request help with information processed on Paoch's behalf by a service provider, contact us at the address below. We may need an anonymous purchase identifier or other details to locate the relevant record.</p>
 
+    <h2>Your Choices and Rights</h2>
+    <p>You can review or change advertising privacy choices from the App's Data &amp; Privacy settings whenever UMP requires that option. You can delete individual items or use Clear All Data for locally stored App content, and you can export a backup before deletion. You may also disable permissions in iOS Settings.</p>
+    <p>Depending on where you live, you may have rights to request access, correction, deletion, restriction or suspension of processing, or withdrawal of consent. Contact us to exercise a right relating to information processed on Paoch's behalf. We will respond as required by applicable law and may direct you to Apple or another provider when that provider controls the relevant record.</p>
+
     <h2>Children's Privacy</h2>
-    <p>Paoch is not directed to children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided information through a third-party service used by the App, contact us.</p>
+    <p>Paoch is not directed to children under 14. We do not knowingly use the App to collect personal information from children under 14 or knowingly enable behavior-based advertising to them. If you believe a child has provided information through a third-party service used by the App, contact us.</p>
 
     <h2>Changes to This Policy</h2>
     <p>We may update this Privacy Policy when the App or its data practices change. We will post the revised policy with a new effective date.</p>
