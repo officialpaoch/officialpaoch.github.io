@@ -20,47 +20,52 @@
 
   <main>
     <h1>Privacy Policy</h1>
-    <p class="effective-date">Effective Date: July 18, 2026</p>
+    <p class="effective-date">Effective Date: July 31, 2026</p>
 
-    <p>Paoch ("the App") is a cosmetic tracking application. This Privacy Policy explains how the App handles your information.</p>
+    <p>Paoch ("the App") is a local-first cosmetic tracking application. This Privacy Policy explains what information stays on your device, what limited information is processed by third-party services used by the App, and the choices available to you.</p>
 
-    <h2>Information We Collect</h2>
+    <h2>Information You Provide</h2>
+    <p>You may enter product names, brands, categories, dates, notes, costs, ratings, routines, reminder settings, and optional personalization preferences. You may also capture or select product photos. This user-created content is stored locally in the App's sandbox on your device. Paoch does not operate an account system or cloud-sync service and does not receive this content.</p>
+    <p>If you export a backup or share a pouch image, the App gives the file to your device's share interface. You choose the destination and are responsible for the service or person with whom you share it.</p>
 
-    <h3>Information You Provide</h3>
-    <p>When you use Paoch, you may enter product information such as names, brands, categories, open dates, and personal ratings. You may also capture or select product photos using your device's camera or photo library. All of this information is stored locally on your device and is not transmitted to any server operated by us.</p>
-
-    <h3>Information Collected Automatically</h3>
-    <p>Paoch does not collect analytics, device identifiers, usage statistics, or any other information automatically.</p>
-
-    <h2>How Your Data Is Stored</h2>
-    <p>All data you enter into Paoch, including products, routines, preferences, and images, is stored exclusively on your device using a local database. We do not operate servers that receive or store your personal data.</p>
-
-    <h2>Third-Party Services</h2>
-    <p>Paoch interacts with the following third-party services:</p>
+    <h2>Information Processed Automatically</h2>
+    <p>Paoch does not operate its own analytics, telemetry, or crash-reporting service. The App does, however, include the following third-party SDKs:</p>
     <ul>
-      <li><strong>Open Beauty Facts</strong> (<a href="https://world.openbeautyfacts.org" target="_blank" rel="noopener">world.openbeautyfacts.org</a>): When you scan a product barcode, the App sends the barcode number to the Open Beauty Facts public API to retrieve product information (name, brand, category, and image). No personal information is included in this request. Open Beauty Facts' privacy policy governs their handling of API requests.</li>
-      <li><strong>Amazon product search links</strong>: When you choose to open a product link, the App opens an Amazon search results page in your external browser using the product name and brand as search terms. Amazon's own privacy policy governs information processed after its website opens.</li>
+      <li><strong>Google Mobile Ads and User Messaging Platform (AdMob/UMP):</strong> The App initializes Google's advertising and consent SDKs on iOS and may show banner ads to free users. Depending on your consent choices, device settings, region, and Google's ad-serving mode, Google may process an IP address (which can indicate general location), device or app identifiers, advertising data, interactions with the App and ads, diagnostic information, and performance information. Google may use this information for advertising, analytics, fraud prevention, and service operation. UMP presents privacy choices where required, and Paoch requests ads only when the SDK reports that ads may be requested. Paoch does not currently request access to Apple's advertising identifier through the App Tracking Transparency prompt.</li>
+      <li><strong>RevenueCat:</strong> The App uses RevenueCat to offer and manage Paoch Pro purchases. RevenueCat processes an SDK-generated anonymous App User ID, purchase history, Apple receipt and transaction information, product and entitlement status, and technical information such as device type, operating system, locale, currency, and IP address. Paoch does not send RevenueCat your name or email address because the App has no account system. Apple processes your payment method; Paoch and RevenueCat do not receive your full payment card details.</li>
     </ul>
+
+    <h2>Other Third-Party Services</h2>
+    <ul>
+      <li><strong>Apple App Store:</strong> Apple processes purchases, refunds, subscription management, and payment information under Apple's privacy policy.</li>
+      <li><strong>Open Beauty Facts:</strong> When you scan or enter a barcode, the App sends that barcode and the technical information inherent in an internet request, such as your IP address, to the Open Beauty Facts API to retrieve product information. Paoch does not include your profile, photos, or product notes in this request.</li>
+      <li><strong>Amazon links:</strong> When you choose to open an Amazon product-search link, the App passes the product name and brand as search terms to your external browser. Amazon and your browser process that request under their own policies. The link may contain an affiliate tag, and Paoch may earn a commission from a resulting purchase.</li>
+    </ul>
+    <p>The relevant third-party policies are available from <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a>, <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">RevenueCat</a>, <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a>, <a href="https://world.openbeautyfacts.org/privacy" target="_blank" rel="noopener">Open Beauty Facts</a>, and <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ" target="_blank" rel="noopener">Amazon</a>.</p>
 
     <h2>Device Permissions</h2>
-    <p>Paoch requests the following device permissions, each of which you may grant or deny:</p>
+    <p>Paoch may request:</p>
     <ul>
-      <li><strong>Camera</strong>: Used to scan barcodes and take product photos.</li>
-      <li><strong>Photo Library</strong>: Used to select existing images for products.</li>
-      <li><strong>Notifications</strong>: Used to send local reminders about product expiration dates. These notifications are generated entirely on your device; no push notification service is involved.</li>
+      <li><strong>Camera:</strong> To scan barcodes and take product photos.</li>
+      <li><strong>Photo Library:</strong> To select existing product images.</li>
+      <li><strong>Motion:</strong> To animate the pouch while you use the App. Motion samples are not stored.</li>
+      <li><strong>Notifications:</strong> To create local product-expiration reminders. Paoch does not use a remote push-notification service.</li>
     </ul>
+    <p>You can grant or deny these permissions and change them later in iOS Settings.</p>
 
-    <h2>Data Export and Backup</h2>
-    <p>Paoch allows you to export your data as a backup file. This file is generated and stored locally on your device. You control where this file goes; it is not uploaded to any service by the App.</p>
+    <h2>Data Storage, Retention, and Deletion</h2>
+    <p>Products, routines, preferences, and images are stored locally until you delete them, clear App data, or uninstall the App. Backup files remain wherever you choose to save or share them.</p>
+    <p>Google, RevenueCat, Apple, Open Beauty Facts, Amazon, and any destination you choose through the share interface retain information according to their own policies and legal obligations. Purchase records may need to be retained to validate entitlements, process refunds, prevent fraud, and meet financial or legal requirements.</p>
+    <p>To request help with information processed on Paoch's behalf by a service provider, contact us at the address below. We may need an anonymous purchase identifier or other details to locate the relevant record.</p>
 
     <h2>Children's Privacy</h2>
-    <p>Paoch does not knowingly collect personal information from children under the age of 13. Because the App stores all data locally and does not transmit personal information, there is no mechanism through which we could collect or access a child's data.</p>
+    <p>Paoch is not directed to children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided information through a third-party service used by the App, contact us.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. The updated version will be indicated by the "Effective Date" at the top of this page. We encourage you to review this policy periodically.</p>
+    <p>We may update this Privacy Policy when the App or its data practices change. We will post the revised policy with a new effective date.</p>
 
     <h2>Contact</h2>
-    <p>If you have questions about this Privacy Policy, please contact us at <a href="mailto:officialpaoch@gmail.com">officialpaoch@gmail.com</a>.</p>
+    <p>For privacy questions or requests, contact <a href="mailto:officialpaoch@gmail.com">officialpaoch@gmail.com</a>.</p>
   </main>
 
   <footer>
