@@ -93,6 +93,8 @@ h1 em, h2 em { color: var(--wine); font-style: italic; }
 .store-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; }
 .store-badge { display: flex; min-width: 176px; align-items: center; gap: 11px; padding: 9px 17px 10px; border: 0; border-radius: 12px; background: #1d1a1b; color: white; font-family: inherit; text-align: left; opacity: 1; cursor: default; }
 .store-badge:disabled { color: white; opacity: 1; }
+a.store-badge { text-decoration: none; cursor: pointer; }
+a.store-badge:hover { background: #332c2f; }
 .store-badge small, .store-badge strong { display: block; line-height: 1.05; }
 .store-badge small { margin-bottom: 4px; color: rgba(255,255,255,.72); font-size: .6rem; font-weight: 600; letter-spacing: .02em; }
 .store-badge strong { font-size: 1.03rem; font-weight: 600; }
