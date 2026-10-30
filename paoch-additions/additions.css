@@ -117,3 +117,33 @@
 @media (max-width: 360px) {
   #features .feature-card { padding: 24px; }
 }
+
+/* Mobile layout adjustments; keep the desktop composition unchanged. */
+@media (max-width: 650px) {
+  .hero h1 { max-width: none; font-size: clamp(1.5rem, 8.7vw, 3.4rem); line-height: 1.16; white-space: nowrap; }
+  .hero .hero-lede { margin: 22px auto 24px; }
+  .hero .store-buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; max-width: 340px; gap: 10px; margin: 0 auto 18px; }
+  .hero .store-badge { min-width: 0; width: 100%; min-height: 50px; justify-content: center; gap: 8px; padding: 8px 10px; border-radius: 10px; }
+  .hero .store-icon { flex: 0 0 23px; width: 23px; height: 23px; }
+  .hero .store-badge small { font-size: .55rem; white-space: nowrap; }
+  .hero .store-badge strong { font-size: .9rem; white-space: nowrap; }
+  .hero .hero-art { width: 100%; max-width: 330px; min-height: 330px; margin-inline: auto; }
+  .hero .icon-card { width: min(230px, 72%); padding: 16px 16px 14px; border-radius: 28px; }
+  .hero .icon-card > img { width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; }
+  .hero .icon-caption { padding-top: 12px; }
+  .hero .icon-caption strong { font-size: 1.25rem; }
+  .hero .icon-caption > span:last-child { font-size: .8rem; }
+  .hero .floating-note { gap: 5px; padding: 7px 9px; font-size: .65rem; }
+  .hero .note-top { top: 45px; right: 0; }
+  .hero .note-bottom { bottom: 40px; left: 0; }
+  .hero .orb-one { width: 240px; height: 240px; transform: translate(22px, -12px); }
+  .hero .orb-two { width: 160px; height: 160px; transform: translate(-70px, 80px); }
+  #showcase .phone-gallery { gap: 18px; padding-inline: 22px; scroll-padding-inline: 22px; }
+  #showcase .phone-card { flex: 0 0 min(76vw, 330px); max-width: 330px; }
+}
+@media (max-width: 360px) {
+  .hero .store-badge { gap: 6px; padding-inline: 8px; }
+  .hero .store-icon { flex-basis: 22px; width: 22px; height: 22px; }
+  .hero .store-badge strong { font-size: .86rem; }
+  #showcase .phone-gallery { padding-inline: 18px; scroll-padding-inline: 18px; }
+}
