@@ -39,6 +39,24 @@
 }
 </script>
   <link rel="stylesheet" href="paoch-additions/additions.css">
+  <style id="paoch-faq-navigation">
+    .home .site-header .nav-faq {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 44px;
+      min-height: 44px;
+      white-space: nowrap;
+    }
+    #paoch-faq { scroll-margin-top: 24px; }
+    @media (max-width: 900px) {
+      .home .site-header nav { gap: 16px; }
+      #paoch-faq { scroll-margin-top: 98px; }
+    }
+    @media (max-width: 650px) {
+      #paoch-faq { scroll-margin-top: 82px; }
+    }
+  </style>
   <script src="paoch-additions/additions.js" defer></script>
 </head>
 <body class="home">
@@ -49,8 +67,7 @@
         <span>Paoch</span>
       </a>
       <nav aria-label="Primary navigation">
-        <a href="#features">Features</a>
-        <a href="#showcase">See the app</a>
+        <a class="nav-faq" href="#paoch-faq">FAQ</a>
         <a href="privacy-policy.html">Privacy</a>
         <a class="nav-cta" href="https://apps.apple.com/app/id6796895822">Download</a>
       </nav>
@@ -209,7 +226,9 @@
       <div class="paoch-add-faq-intro"><p class="paoch-add-eyebrow">A few things you might wonder</p><h2 class="paoch-add-title" id="paoch-faq-heading">A little <br><em class="paoch-add-italic">more to know.</em></h2><p>Opening dates, PAO and all the little details in between.</p></div>
       <div class="paoch-add-faq-items">
         <details><summary>What is a beauty expiry tracker?</summary><p>A beauty expiry tracker helps you record when you opened your makeup and skincare, track each product's period after opening (PAO) and get reminders as the recorded date approaches. PAOCH brings those records together with your beauty collection and routines.</p></details>
+        <details><summary>How can I remember when I opened my skincare?</summary><p>Save the date you open a product in PAOCH and add its period after opening (PAO), following the label or manufacturer's guidance. PAOCH keeps the opening date with your product details and sends reminders as the recorded PAO date approaches.</p></details>
         <details><summary>Can I organize makeup and skincare together?</summary><p>Yes. PAOCH keeps makeup, skincare and other beauty products in one collection. You can add products with a photo, supported barcode or manual entry, then keep their opening dates and product details close.</p></details>
+        <details><summary>How can I organize my makeup and skincare collection?</summary><p>Keep your makeup and skincare in one PAOCH collection, then browse by category, brand or product status. See what you own and which products are approaching their PAO dates, so you can choose what to use first and check your collection before buying more.</p></details>
         <details><summary>Is PAO the same as an expiration date?</summary><p>No. PAO refers to the recommended period after opening for applicable products. A printed expiry or best-before date is a separate instruction. Always follow the product's labeling and manufacturer guidance.</p></details>
         <details><summary>What if my product has no PAO symbol?</summary><p>Check its packaging and the manufacturer's guidance. You can enter product details manually in PAOCH, using the guidance for that specific product. Avoid assuming all beauty products have the same usable period.</p></details>
         <details><summary>Can I build routines and use Home Screen widgets?</summary><p>Yes. Organize morning, evening and custom beauty routines, check off your steps and bring your collection to your Home Screen with widgets. Some features and widget sizes require PAOCH Pro.</p></details>
